@@ -82,6 +82,7 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .list-item {
@@ -93,7 +94,7 @@ h1, h2 {
     background-color: #F44336;
     border-radius: 50%;
     font-size: 1.5em;
-    width: 5%;
+    width: 5vw;
     aspect-ratio: 1/1;
     box-sizing: content-box;
 }
@@ -117,7 +118,7 @@ label {
 
 @media (min-width: 550px) {
     .history {
-        width: 80%;
+        width: 80vw;
     }
 }
 
@@ -131,7 +132,7 @@ label {
     }
 
     .list-item {
-        width: 3%;
+        width: 3vw;
     }
 }
 
